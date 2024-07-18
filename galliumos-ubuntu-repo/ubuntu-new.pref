@@ -1,0 +1,11 @@
+# New release pinning to newer release
+
+Explanation: Chrome
+Package: chromium*
+Pin: release n=jammy
+Pin-Priority: 900
+
+Package: *
+Pin: release n=jammy
+Pin-Priority: -10
+
